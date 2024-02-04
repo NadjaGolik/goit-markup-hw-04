@@ -112,7 +112,6 @@ body {
   gap: 40px;
 }
 .studio {
-  position: relative;
 }
 .studio::after {
   content: "";
@@ -128,7 +127,8 @@ body {
   list-style-type: none;
 }
 
-.menu-link-item {
+.menu-item {
+  position: relative;
   color: var(--navyblue-color);
   font-size: 16px;
   font-style: normal;
@@ -137,10 +137,10 @@ body {
   padding: 24px 0;
   display: block;
 }
-.menu-link-item:hover {
+.menu-item:hover {
   color: var(--ocean);
 }
-.menu-link-item:focus {
+.menu-item:focus {
   color: var(--ocean);
 }
 
