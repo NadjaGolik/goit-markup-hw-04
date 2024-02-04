@@ -196,6 +196,8 @@ body {
 
 .section {
   min-width: 1440px;
+  max-width: 1440px;
+
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -203,10 +205,14 @@ body {
 .title-text {
   padding-top: 188px;
   padding-bottom: 188px;
-  background-image: url(../images/dark-bg.svg),
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
     url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .section-solutions-title {
@@ -407,14 +413,27 @@ body {
   border: 1px solid var(--iris-color);
   background-color: var(--iris-color);
   border-radius: 50%;
+  
+}
+
+.social-media-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--iris-color);
+  border-radius: 50%;
   transition-property: box-shadow;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(
-    0.4,
-    0,
-    0.2,
-    1
-  );
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-media-item:hover,
+.social-media-item:focus{
+    background-color: var(--ocean);
+}
+.social-media-icon{
+    fill: var(--cloud-color);
 }
 
 /* Section 4 */
