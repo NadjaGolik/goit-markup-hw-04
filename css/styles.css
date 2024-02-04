@@ -120,6 +120,7 @@ body {
   width: 48px;
   height: 4px;
   background-color: var(--ocean);
+  color: var(--ocean);
   display: block;
 }
 
