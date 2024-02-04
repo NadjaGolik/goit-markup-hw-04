@@ -346,6 +346,7 @@ body {
 
 .our-team-experts {
   width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
   box-shadow: 0 2px 1px 0
       rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
@@ -413,6 +414,9 @@ body {
   border: 1px solid var(--iris-color);
   background-color: var(--iris-color);
   border-radius: 50%;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 
