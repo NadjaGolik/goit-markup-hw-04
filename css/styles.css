@@ -111,17 +111,17 @@ body {
   display: flex;
   gap: 40px;
 }
-.studio {
-}
-.studio::after {
+
+.header-menu-item::after {
   content: "";
   position: absolute;
   border-radius: 2px;
   width: 48px;
   height: 4px;
   background-color: var(--ocean);
-  color: var(--ocean);
+  
   display: block;
+  bottom: -1px;
 }
 
 .list {
@@ -130,7 +130,7 @@ body {
 
 .menu-item {
   position: relative;
-  color: var(--navyblue-color);
+  color: var(--ocean);
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
