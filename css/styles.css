@@ -413,13 +413,14 @@ body {
 }
 
 .social-media-item {
-  width: 100%;
-  height: 100%;
+  
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--iris-color);
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(
@@ -477,7 +478,7 @@ body {
   cursor: pointer;
 }
 
-.portfolio-inform:hover .overlay,
+.portfolio-inform:hover .our-portfolio-overlay,
 .portfolio-inform:focus {
   transform: translateY(0%);
 }
@@ -485,11 +486,11 @@ body {
 .img-portfolio {
   border-bottom: #fff;
 }
-.item-portfolio {
+.item-our-portfolio {
   position: relative;
   overflow: hidden;
 }
-.overlay {
+.our-portfolio-overlay {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -540,6 +541,7 @@ body {
 }
 .footer-content {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-logo {
