@@ -626,7 +626,10 @@ body {
   transition-property: background-color;
 }
 
-.social-media-item:hover,
+.social-media-item:hover{
+  background-color: var(--green);
+}
+
 .social-media-item:focus{
   background-color: var(--green);
 }
