@@ -601,13 +601,7 @@ body {
   border-radius: 50%;
   transition-property: border-color,
     background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(
-    0.4,
-    0,
-    0.2,
-    1
-  );
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media-footer:hover {
