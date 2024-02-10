@@ -478,7 +478,8 @@ body {
   cursor: pointer;
 }
 
-.portfolio-inform:hover .our-portfolio-overlay {
+.portfolio-inform:hover .our-portfolio-overlay,
+.portfolio-inform:focus {
   transform: translateY(0%);
 }
 
