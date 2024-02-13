@@ -442,6 +442,12 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  
+}
+
+
+.activity-item {
+  background: var(--white, #fff);
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(
@@ -450,16 +456,6 @@ body {
     0.2,
     1
   );
-}
-.social-links:hover{
-box-shadow: 0px 1px 6px
-      rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-.activity-item {
-  background: var(--white, #fff);
-  
 }
 
 .activity-item:hover {
