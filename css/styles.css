@@ -523,6 +523,9 @@ body {
   display: flex;
   align-items: baseline;
 }
+.footer-social-media {
+  margin-left: 120px;
+}
 .footer-content {
   margin-right: 120px;
 }
@@ -545,10 +548,7 @@ body {
   width: 264px;
 }
 
-.footer-social-media {
-  
-  margin-left: 120px;
-}
+
 
 .footer-social-media-text {
   display: flex;
