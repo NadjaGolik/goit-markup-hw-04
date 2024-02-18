@@ -523,11 +523,11 @@ body {
   display: flex;
   align-items: baseline;
 }
-.footer-social-media {
-  margin-left: 120px;
-}
 .footer-content {
   margin-right: 120px;
+}
+.footer-social-media {
+  margin-left: 120px;
 }
 
 .header-navigation-accent-studio {
@@ -548,7 +548,8 @@ body {
   width: 264px;
 }
 
-.footer-social-media{}
+.footer-social-media {
+}
 
 .footer-social-media-text {
   display: flex;
@@ -570,7 +571,7 @@ body {
 }
 
 .social-media-footer {
-   display: flex;
+  display: flex;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -604,7 +605,6 @@ body {
 .footer-social-media-item:hover {
   background-color: var(--green);
 }
-
 
 .footer-social-media-item:focus {
   background-color: var(--green);
