@@ -523,9 +523,11 @@ body {
   display: flex;
   align-items: baseline;
 }
+
 .footer-content {
   margin-right: 120px;
 }
+
 .footer-social-media {
   margin-left: 120px;
 }
@@ -546,9 +548,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
-}
-
-.footer-social-media {
 }
 
 .footer-social-media-text {
