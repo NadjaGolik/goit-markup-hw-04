@@ -513,8 +513,6 @@ body {
 /* footer */
 
 .footer-business-marketing {
-  display: flex;
-  align-items: baseline;
   background-color: var(
     --navyblue-color
   );
