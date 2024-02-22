@@ -513,23 +513,22 @@ body {
 /* footer */
 
 .footer-business-marketing {
+  display: flex;
+  align-items: baseline;
   background-color: var(
     --navyblue-color
   );
   padding: 100px 0;
 }
 
-.footer-promotion-business {
-  display: flex;
-  align-items: baseline;
-}
-
-.footer-content {
+.footer-logo-paragraf {
   margin-right: 120px;
 }
 
+.footer-content {
+}
+
 .footer-social-media {
-  margin-left: 120px;
 }
 
 .header-navigation-accent-studio {
@@ -551,46 +550,32 @@ body {
 }
 
 .footer-social-media-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--write-color);
   font-weight: 500;
-  line-height: 1.5;
   font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--write-color);
   margin-bottom: 16px;
 }
 
 .footer-social-media-list {
   display: flex;
   gap: 16px;
-  align-items: center;
-  justify-content: center;
 }
 
 .social-media-footer {
-  display: flex;
   width: 40px;
   height: 40px;
-  border-radius: 50%;
+  /*border-radius: 50%;
   border: 1px solid var(--iris-color);
   background-color: var(--iris-color);
   transition-property: border-color,
     background-color;
   transition: background-color 250ms
-    cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-media-footer:hover {
-  background-color: var(--green);
-  border-color: var(--green);
+    cubic-bezier(0.4, 0, 0.2, 1);*/
 }
 
 .footer-social-media-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
   height: 100%;
   background-color: var(--iris-color);
